@@ -1,0 +1,16 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "VituraHealth.prescriptionmanagement.client\\viturahealth.prescriptionmanagement.client.esproj",
+        "Action": "StartWithoutDebugging"
+      },
+      {
+        "Path": "VituraHealth.PrescriptionManagement.Server\\VituraHealth.PrescriptionManagement.Server.csproj",
+        "Action": "Start",
+        "DebugTarget": "http"
+      }
+    ]
+  }
+]

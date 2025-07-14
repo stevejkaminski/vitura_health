@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36127.28
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "viturahealth.prescriptionmanagement.client", "VituraHealth.prescriptionmanagement.client\viturahealth.prescriptionmanagement.client.esproj", "{DF9ED5A0-82B3-633F-4E66-67B69623CF13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VituraHealth.PrescriptionManagement.Server", "VituraHealth.PrescriptionManagement.Server\VituraHealth.PrescriptionManagement.Server.csproj", "{BEA594C4-4462-4153-8234-7F0E10F00D78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VituraHealth.PrescriptionManagement.Domain", "VituraHealth.PrescriptionManagement.Domain\VituraHealth.PrescriptionManagement.Domain.csproj", "{6B585158-A3FA-4907-9B49-0D90C29269A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VituraHealth.PrescriptionManagement.Server.Test", "VituraHealth.PrescriptionManagement.Server.Test\VituraHealth.PrescriptionManagement.Server.Test.csproj", "{3BBA5D4D-AC2F-47C4-95B4-4F2772DAC9BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VituraHealth.PrescriptionManagement.Infrastructure", "VituraHealth.PrescriptionManagement.Infrastructure\VituraHealth.PrescriptionManagement.Infrastructure.csproj", "{5F614DFE-DF0E-4F9E-889C-F7DABE37A10C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VituraHealth.PrescriptionManagement.Infrastructure.Test", "VituraHealth.PrescriptionManagement.Infrastructure.Test\VituraHealth.PrescriptionManagement.Infrastructure.Test.csproj", "{4B27A064-740C-472F-BA9E-5F53B044A50E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF9ED5A0-82B3-633F-4E66-67B69623CF13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF9ED5A0-82B3-633F-4E66-67B69623CF13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF9ED5A0-82B3-633F-4E66-67B69623CF13}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DF9ED5A0-82B3-633F-4E66-67B69623CF13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF9ED5A0-82B3-633F-4E66-67B69623CF13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF9ED5A0-82B3-633F-4E66-67B69623CF13}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{BEA594C4-4462-4153-8234-7F0E10F00D78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEA594C4-4462-4153-8234-7F0E10F00D78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEA594C4-4462-4153-8234-7F0E10F00D78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEA594C4-4462-4153-8234-7F0E10F00D78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B585158-A3FA-4907-9B49-0D90C29269A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B585158-A3FA-4907-9B49-0D90C29269A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B585158-A3FA-4907-9B49-0D90C29269A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B585158-A3FA-4907-9B49-0D90C29269A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BBA5D4D-AC2F-47C4-95B4-4F2772DAC9BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BBA5D4D-AC2F-47C4-95B4-4F2772DAC9BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BBA5D4D-AC2F-47C4-95B4-4F2772DAC9BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BBA5D4D-AC2F-47C4-95B4-4F2772DAC9BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F614DFE-DF0E-4F9E-889C-F7DABE37A10C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F614DFE-DF0E-4F9E-889C-F7DABE37A10C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F614DFE-DF0E-4F9E-889C-F7DABE37A10C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F614DFE-DF0E-4F9E-889C-F7DABE37A10C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B27A064-740C-472F-BA9E-5F53B044A50E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B27A064-740C-472F-BA9E-5F53B044A50E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B27A064-740C-472F-BA9E-5F53B044A50E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B27A064-740C-472F-BA9E-5F53B044A50E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5BF93F56-4F38-47E0-A32F-7F65C622902D}
+	EndGlobalSection
+EndGlobal

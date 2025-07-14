@@ -1,0 +1,6 @@
+@VituraHealth.PrescriptionManagement.Server_HostAddress = http://localhost:5299
+
+GET {{VituraHealth.PrescriptionManagement.Server_HostAddress}}/patients/
+Accept: application/json
+
+###
